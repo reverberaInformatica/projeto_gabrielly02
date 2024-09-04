@@ -1,7 +1,7 @@
 body{
     
     background-color: rgb(245, 214, 128); 
-    color:rgb(49, 49, 49);
+    color:rgb(0, 0, 0);
     margin: auto;
     text-align: center;
 }
@@ -24,14 +24,25 @@ padding: 50px;
 }
 .galeria{
   margin: auto;
-  width: 80%;
+  width: 70%;
   height:fit-content;
-padding:50px;
+  padding:50px;
+  position:relative;
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  border-radius: 30px;
 }
 
 img{
-  width: 85%;
-  border-radius: 30px;
+  width: 100%;
+ height: 100%;
+ position: sticky;
+ left: 0;
+ flex-shrink: 0;
+ object-fit: cover;
+ scroll-behavior: smooth;
+ border-radius: 30px;
  }
 
   video{
@@ -42,8 +53,8 @@ width:70%
 
   header{
     background-color:rgb(247, 236, 175);
-  margin:0%;
-  padding:0%;
+  margin:0;
+  padding:0;
 }
 
 nav{
@@ -54,7 +65,7 @@ nav{
 nav li a{
     text-decoration: none;
     color:black;
-    padding:10px;
+    padding:0 10px;
     font-size: 20px;
 }
 
@@ -63,10 +74,49 @@ text-align: left;
 letter-spacing: 5px;
 }
 
-nav lu{
+nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     padding: 10px;
     list-style: none;
+}
+p{
+  font-size: 20px;
+}
+
+title{
+  font-size: 70px; 
+}
+
+hr{
+  font-size: 50px;
+}
+
+h1{
+  font-size: 60px;
+
+}
+
+h2{
+  font-size: 35px;
+  color: rgb(39, 39, 39);
+}
+
+h3{
+font-size: 30px;
+
+}
+
+h4{
+  font-size: 25px;
+
+}
+
+td{
+  font-size: 25px;
+}
+
+br{
+  
 }
