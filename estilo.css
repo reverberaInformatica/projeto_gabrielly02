@@ -1,26 +1,29 @@
 body{
     
     background-color: rgb(245, 214, 128); 
-    color:rgb(0, 0, 0);
+    color:rgb(46, 46, 46);
     margin: auto;
     text-align: center;
+    font-family: "Lora", serif;
+    
 }
 
 table {
-    width: 55%;
-    background-color: rgb(255, 233, 110);
-    margin: auto;
+  width: 55%;
+  background-color: rgb(255, 233, 110);
+  margin: auto;
 }
 
 table tr:nth-child(even) {
-    background-color: antiquewhite;
+  background-color: rgb(255, 238, 216);
 }
 
-.informacao{background-color:antiquewhite;
-width:85%;
-border-radius:30px;
-margin:auto;
-padding: 50px;
+.informacao{
+  background-color:rgb(247, 236, 175);
+  width:85%;
+  border-radius:30px;
+  margin:auto;
+  padding: 50px;
 }
 .galeria{
   margin: auto;
@@ -86,7 +89,7 @@ p{
 }
 
 title{
-  font-size: 70px; 
+  font-size: 65px; 
 }
 
 hr{
@@ -117,6 +120,3 @@ td{
   font-size: 25px;
 }
 
-br{
-  
-}
